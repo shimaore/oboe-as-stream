@@ -1,0 +1,21 @@
+{
+  "name": "oboe-as-stream",
+  "version": "1.0.0",
+  "description": "Oboe JSON parsing as Most.JS stream",
+  "main": "index.js",
+  "scripts": {
+    "prepublishOnly": "npm install --only=dev && coffee -c *.coffee.md"
+  },
+  "author": "",
+  "license": "Unlicense",
+  "repository": {
+    "type": "git",
+    "url": "github.com/shimaore/oboe-as-stream"
+  },
+  "devDependencies": {
+    "coffeescript": "^2.2.1"
+  },
+  "dependencies": {
+    "most": "^1.7.3"
+  }
+}
